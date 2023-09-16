@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins';
+}
+
+body,html{
+    height: 100vh;
+    
+}
+
+body{
+background: url(../imagens/fundo-das-montanhas-ao-por-do-sol_68166-40.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    
+}
+
+section{
+    display: block;
+    position:absolute;
+    border: 1px solid rgb(183, 177, 177);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height:400px;
+    transform: translate(50%, 50%);
+    
+}
+
+
+
+
+
+section > h1{
+    text-align: center;
+    
+}
+
+
+section > form > button{
+   justify-self: center;
+}
+
+
+
+.inputbox{
+    position: relative;
+    margin: 30px 0px;
+    border-bottom: 3px solid #fff;
+    padding: 0px 20px;
+
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    width: 5px;
+    transform: translateY(-50%);
+    
+}
+
+.inputbox input{
+    background: transparent;
+    border: none;
+    outline: none;    
+}
+
+
+.text{  
+    text-align: center;
+    margin: 10px 40px;
+}
+
+
+button{
+    background: transparent;
+    background-color: white;
+    margin: 0px 77px;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 250px;
+}
+
