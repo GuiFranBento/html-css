@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex de tabelas</title>
+    <style>
+        td{
+            border: 1px solid black;
+           
+        }
+        
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+            
+        }
+
+        table > legend{
+            text-align: center;
+            
+        }
+
+        th{
+            border: 1px solid black;
+        }
+
+        thead{
+            position: sticky;
+            top: 0px;
+            background-color: lightgray;
+        }   
+
+
+        main{
+            position: relative;
+
+
+        }
+
+        div#conteudo {
+            position: absolute;
+            overflow: scroll;
+        }
+
+
+    </style>
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+    
+    <main >
+
+        <div id="conteudo">
+            <table>
+                <legend>testando</legend>
+                <thead>
+                    <tr>
+                        <th>conteudos</th>
+                        <th>avaliação</th>
+                        <th>notas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td >filmes</td>
+                        <td>ruim</td>
+                        <td>1</td>
+                    </tr>
+                   <tr>
+            
+                       <td >moda</td>
+                       <td>bom</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">gastronomia</td>
+                        <td>muito bom</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
