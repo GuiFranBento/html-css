@@ -20,7 +20,14 @@
 
             <menu id="itens">
                 <ul>
-                    <li> <a href="https://www.cursoemvideo.com">Opção 1</a></li>
+                    <li id="first" onclick="click()"> Opção 1 </li>
+                    <menu id="subitens" >
+                        <ul>
+                            <li><a href="#">camisas</a></li>
+                        </ul>
+
+                    </menu>
+                    
                     <li> <a href="#">Opção 2</a></li>
                     <li> <a href="#">Opção 3</a></li>
                     <li> <a href="#">Opção 4</a></li>
@@ -84,7 +91,15 @@
 
         }
 
+        function click(){
+            if(subitens.style.display == 'block'){
+                subitens.style.display = 'none'
 
+            }
+            else {
+                subitens.style.display = 'block'
+            }
+        }
 
 
 

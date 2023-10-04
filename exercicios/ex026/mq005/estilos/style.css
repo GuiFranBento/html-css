@@ -36,10 +36,15 @@ span#burguer:hover{
     color: black;
 }   
 
-
+menu#itens > ul > li#first {
+    cursor: pointer;
+}
+menu#subitens{
+    display: block;
+}
 
 menu{
-    display: block;
+   
     display: none;
 }
 
